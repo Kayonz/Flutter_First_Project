@@ -96,12 +96,18 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'Aproveite esta bela mensagem para pressionar o botão',
             ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            const SizedBox(height: 20),
+            Image.asset(
+              '/images/bemvindo.jpg',
+              width: 500,
+              height: 500
+            )
           ],
         ),
       ),
